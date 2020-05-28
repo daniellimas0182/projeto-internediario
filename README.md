@@ -38,7 +38,7 @@ Para listar um usuário especifico utilize a rota /usuarios/_id
 
 Para deletar um usuário utilieze a rota /usuarios/_id 
 
-Para filtrar o usuário com o mesmo nome de usuário e com o limite de 5 usuários utileze a rota /usuarios?nome=nome do usuario?limit=5
+Para filtrar o usuário com o mesmo nome de usuário e com o limite de 5 usuários utileze a rota /usuarios?nome=nome do usuario&limit=5
 
 Recurso classe
 ----------------
@@ -69,7 +69,7 @@ Para listar uma classe especifica utilize a rota /classes/_id
 
 Para deletar uma classe utilieze a rota /classes/_id 
 
-Para filtrar as classes com o mesmo nome e com o limite de 5 classes utileze a rota /classes?nome=nome da classe?limit=5
+Para filtrar as classes com o mesmo nome e com o limite de 5 classes utileze a rota /classes?nome=nome da classe&limit=5
 
 recurso item
 ---------------
@@ -103,7 +103,7 @@ Para listar um item especifico utilize a rota /itens/_id
 
 Para deletar um item utilieze a rota /itens/_id 
 
-Para filtrar os itens com o mesmo nome e com o limite de 5 itens utileze a rota /itens?nome=nome do item?limit=5
+Para filtrar os itens com o mesmo nome e com o limite de 5 itens utileze a rota /itens?nome=nome do item&limit=5
 
 Recurso mundo
 --------------
@@ -138,7 +138,7 @@ Para listar um mundo especifico utilize a rota /mundos/_id
 
 Para deletar um mundo utilieze a rota /mundos/_id 
 
-Para filtrar os mundos com o mesmo nome e com o limite de 5 mundos utileze a rota /mundos?nome=nome do mundo?limit=5
+Para filtrar os mundos com o mesmo nome e com o limite de 5 mundos utileze a rota /mundos?nome=nome do mundo&limit=5
 
 Recurso Personagem
 -------------------
@@ -224,7 +224,7 @@ Para listar um personagem especifico utilize a rota /personagens/_id
 Para deletar um personagem utilieze a rota /personagens/_id 
 
 
-Para filtrar os personagens com o mesma cor de cabelo e com o limite de 5 personagens utileze a rota /personagens?cor_cabelo=cor de cabelo?limit=5
+Para filtrar os personagens com o mesma cor de cabelo e com o limite de 5 personagens utileze a rota /personagens?cor_cabelo=cor de cabelo&limit=5
 
 
 
