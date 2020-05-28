@@ -4,7 +4,7 @@ const Personagem = require('../../models/personagem')
 
 router.get('/', async (req, res) => {
     try {
-        var LIMITE = req.query.limit ? parseInt(req.query.limit) : 5;
+        var LIMITE = req.query.limit ? parseInt(req.query.limit) : 50
         var PERSONAGEM_FILTER = req.query.cor_cabelo ? {cor_cabelo: req.query.cor_cabelo} : {};
 
         var personagens = await Personagem.find(PERSONAGEM_FILTER).limit(LIMITE)

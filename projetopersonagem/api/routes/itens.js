@@ -4,7 +4,7 @@ const Item = require('../../models/item')
 
 router.get('/', async (req, res) => {
     try {
-        var LIMITE = req.query.limit ? parseInt(req.query.limit) : 5
+        var LIMITE = req.query.limit ? parseInt(req.query.limit) : 50
         var NOME_FILTER = req.query.nome ? {nome: req.query.nome} : {}
         var itens = await Item.find(NOME_FILTER).limit(LIMITE)
 

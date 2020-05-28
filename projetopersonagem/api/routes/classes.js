@@ -4,12 +4,12 @@ const Classe = require('../../models/classe')
 
 router.get('/', async (req, res) => {
     try {
-        var LIMITE = req.query.limit ? parseInt(req.query.limit) : 5
+        var LIMITE = req.query.limit ? parseInt(req.query.limit) : 50
         var NOME_FILTER = req.query.nome ? {nome: req.query.nome} : {}
         var classes = await Classe.find(NOME_FILTER).limit(LIMITE)
 
         if(classes == ""){
-            res.status(400).json({ error: 'Esse usuário não existe!'});   
+            res.status(400).json({ error: 'Essa classe não existe!'});   
             return;
           }
 
