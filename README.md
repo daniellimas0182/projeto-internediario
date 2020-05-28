@@ -32,7 +32,7 @@ body do metodo PUT
     
 }  
 
-Para lstar todos os usuários utilize a rota /usuarios
+Para listar todos os usuários utilize a rota /usuarios
 
 Para listar um usuário especifico utilize a rota /usuarios/_id
 
@@ -63,7 +63,7 @@ body do metodo PUT
     
 }  
 
-Para lstar todas as classes utilize a rota /classes
+Para listar todas as classes utilize a rota /classes
 
 Para listar uma classe especifica utilize a rota /classes/_id
 
@@ -97,7 +97,7 @@ body do metodo PUT
     "dano": "novo dano do intem"
     
 }  
-Para lstar todos os itens utilize a rota /itens
+Para listar todos os itens utilize a rota /itens
 
 Para listar um item especifico utilize a rota /itens/_id
 
@@ -132,7 +132,7 @@ body do metodo PUT
     
 }  
 
-Para lstar todos os mundos utilize a rota /mundos
+Para listar todos os mundos utilize a rota /mundos
 
 Para listar um mundo especifico utilize a rota /mundos/_id
 
@@ -217,7 +217,7 @@ body do metodo PUT
     
 }
 
-Para lstar todos os personagens utilize a rota /personagens
+Para listar todos os personagens utilize a rota /personagens
 
 Para listar um personagem especifico utilize a rota /personagens/_id
 
