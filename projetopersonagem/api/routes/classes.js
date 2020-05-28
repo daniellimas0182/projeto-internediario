@@ -24,7 +24,7 @@ router.get('/:_id', async (req, res) => {
     try{
         var classe = await Classe.findOne({_id: req.params._id})
 
-        if(classe == null){
+        if(classe == ""){
             res.status(400).json({ error: 'Essa Classe não existe!'});   
             return;
           }
