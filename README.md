@@ -10,20 +10,32 @@ Recurso usuários
 Para criar um novo usuário utilize a rota /usuarios
 
 body para criar o novo usuário com o metodo post 
+
 {
+
     "nome": "nome desejado",
+    
     "senha": "senha desejado" 
+    
 }  
 
+
 Para editar os campos do usuário utilize a rota /usuarios/_id
+
 body do metodo PUT
+
 {
+
     "nome": "novo nome",
+    
     "senha": "nova senha" 
+    
 }  
 
 Para lstar todos os usuários utilize a rota /usuarios
+
 Para listar um usuário especifico utilize a rota /usuarios/_id
+
 Para deletar um usuário utilieze a rota /usuarios/_id 
 
 Para filtrar o usuário com o mesmo nome de usuário e com o limite de 5 usuários utileze a rota /usuarios?nome=nome do usuario?limit=5
