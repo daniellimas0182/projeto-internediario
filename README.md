@@ -2,6 +2,8 @@ Projeto Personagens
 
 Execute o comando npm install para instalar as depencias.
 
+Execute o comando npm install mongoose --save
+
 Execute o comando npm start para inicializar o servidor.
 
 Recurso usuários 
